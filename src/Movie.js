@@ -8,33 +8,32 @@ export default function Movie({movie}) {
   
 
   return(
-    <div>
     <div className='container-lg card w-75'>
     <div className='card-header'>
+
     <h4>{movie.name}</h4>
+
     <div id='photo'>
     <img id='imageURL' src={movie.imageUrl} alt='Poster for individual movies'></img>
     </div>
     </div>
+
     <div className='card-body'>
     {movie.description}
     <div>
     Average Rating: {movie.averageRating}
-    <StarRating movies={movie}/>
-    
+    <StarRating />
     </div>
     </div>
     
     
     
     <div className='card-footer'>
-    <div>
-    </div>
     <ReviewList />
     </div>
     <br/><br/>
     </div>
-    </div>
+
     
   )
 }

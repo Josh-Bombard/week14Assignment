@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 const ReviewForm = ({ onSubmit }) => {
   const [reviewData, setReviewData] = useState({
     reviewerName: '',
-    rating: 5, // Default rating of 5
     comment: '',
   });
 

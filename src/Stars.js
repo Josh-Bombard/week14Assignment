@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+//create a movie rating component to get use out of the star component 
 const MovieRating = () => {
   const [rating, setRating] = useState(0);
   const maxRating = 5;

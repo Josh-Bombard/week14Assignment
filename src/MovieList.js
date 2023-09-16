@@ -21,7 +21,8 @@ export default function MovieList() {
   "description": "An epic romance spanning centuries, as two souls find each other again and again amidst the backdrop of historical events.",
   "averageRating": 4.7,
   "imageUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yZBBcP8QZFALkfkbW8Yjp6ylJ0v.jpg"
-}
+},
+
 ];
 
 const showMovies = movieList.map((item,i) => <Movie movie={item} key={i}/>);

@@ -47,7 +47,10 @@ const ReviewForm = ({ onSubmit }) => {
             required
           />
         </label>
-        <button type="submit">Submit Review</button>
+        <div className=''>
+          <br/>
+        <button className='btn btn-primary' type="submit">Submit Review</button>
+        </div>
       </form>
     </div>
   );

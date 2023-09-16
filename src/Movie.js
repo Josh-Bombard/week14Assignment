@@ -8,8 +8,8 @@ export default function Movie({movie}) {
   
 
   return(
-    <div className='container-lg'>
-    <div className='card w-75'>
+    <div>
+    <div className='container-lg card w-75'>
     <div className='card-header'>
     <h4>{movie.name}</h4>
     <div id='photo'>
@@ -26,6 +26,7 @@ export default function Movie({movie}) {
     </div>
     
     
+    
     <div className='card-footer'>
     <div>
     </div>
@@ -33,7 +34,7 @@ export default function Movie({movie}) {
     </div>
     <br/><br/>
     </div>
-  
     </div>
+    
   )
 }
